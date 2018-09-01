@@ -1,11 +1,11 @@
-SELECT AVG(spending) FROM customers;
+SELECT AVG(spending) FROM orders;
 
-SELECT SUM(spending) FROM customers;
+SELECT SUM(spending) FROM orders;
 
-SELECT * FROM customers
+SELECT * FROM orders
 WHERE spending > 3000
 ORDER BY spending DESC;
 
-SELECT * FROM customers
-WHERE spending > (SELECT AVG(spending) FROM customers)
+SELECT * FROM orders
+WHERE spending > (SELECT AVG(spending) FROM orders)
 ORDER BY spending DESC; 
