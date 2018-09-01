@@ -15,7 +15,7 @@ WHERE city = 'Boston'
 AND (Age >= 30 OR Age <= 40);
 
 SELECT * FROM customers
-WHERE City IN ('New York', 'Los Angeles', 'Chicago');
+WHERE city IN ('New York', 'Los Angeles', 'Chicago');
 
 SELECT CONTACT(FirstName, ',', City)
 FROM customers;
