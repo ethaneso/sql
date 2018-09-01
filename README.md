@@ -18,3 +18,7 @@ my sql notes
 [Alter, Drop, Rename a Table](https://github.com/ethankclam/sql/blob/master/alter.sql)
 
 [view](https://github.com/ethankclam/sql/blob/master/view.sql)
+***
+Certificate
+
+[Sololearn SQL Fundamentals](https://www.sololearn.com/Certificate/1060-7163891/pdf/)
